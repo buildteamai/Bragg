@@ -1,0 +1,14 @@
+{
+  "name": "18D",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postCreateCommand": "npm install",
+  "postAttachCommand": "npm run dev",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "18D", "onAutoForward": "openBrowser" }
+  },
+  "secrets": {
+    "GEMINI_API_KEY": { "description": "Gemini API key used by the 18D server" }
+  },
+  "hostRequirements": { "cpus": 4 }
+}
