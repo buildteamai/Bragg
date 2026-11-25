@@ -1,0 +1,6 @@
+{
+  "name": "18D",
+  "description": "AI-powered geometric reconstruction workbench for generating sub-millimeter 3D CAD mesh replicas from reference photographs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
